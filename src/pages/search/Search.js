@@ -10,7 +10,7 @@ export default function Search() {
   console.log(queryParams)
   const query = queryParams.get('query')
 
-  const url = 'http://localhost:3000/recipes?q=' + query
+  const url = 'https://fake-server-app-mmolnar.herokuapp.com/recipes?q=' + query
   const {error, isPending, data} = useFetch(url)
 
   return (

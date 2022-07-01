@@ -17,7 +17,7 @@ export default function Create() {
   const history = useHistory( )
   const { mode } = useTheme()
 
-  const { postData, data, error } = useFetch('http://localhost:3000/recipes', 'POST')
+  const { postData, data, error } = useFetch('https://fake-server-app-mmolnar.herokuapp.com/recipes', 'POST')
 
   const handleSubmit = (e) => {
     e.preventDefault()
