@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/coocker/static/css/main.4aae20fa.chunk.css",
+    "main.js": "/coocker/static/js/main.ad545be9.chunk.js",
+    "main.js.map": "/coocker/static/js/main.ad545be9.chunk.js.map",
+    "runtime-main.js": "/coocker/static/js/runtime-main.f46abd42.js",
+    "runtime-main.js.map": "/coocker/static/js/runtime-main.f46abd42.js.map",
+    "static/js/2.10be8e31.chunk.js": "/coocker/static/js/2.10be8e31.chunk.js",
+    "static/js/2.10be8e31.chunk.js.map": "/coocker/static/js/2.10be8e31.chunk.js.map",
+    "index.html": "/coocker/index.html",
+    "static/css/main.4aae20fa.chunk.css.map": "/coocker/static/css/main.4aae20fa.chunk.css.map",
+    "static/js/2.10be8e31.chunk.js.LICENSE.txt": "/coocker/static/js/2.10be8e31.chunk.js.LICENSE.txt",
+    "static/media/brightness.18c28fe1.svg": "/coocker/static/media/brightness.18c28fe1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f46abd42.js",
+    "static/js/2.10be8e31.chunk.js",
+    "static/css/main.4aae20fa.chunk.css",
+    "static/js/main.ad545be9.chunk.js"
+  ]
+}
