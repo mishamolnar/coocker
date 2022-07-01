@@ -1,12 +1,26 @@
 import './RecipeList.css'
 import { Link } from 'react-router-dom'
+import { useTheme } from '../hooks/useTheme'
 
 export default function RecipeList({ recipes }) {
+  const { mode } = useTheme()
+
+  if (recipes.length === 0) {
+    return <div className="error">No recipes found</div>
+  }
+
   return (
     <div className="recipe-list">
         {recipes.map(recipe => (
-          <div key={recipe.id} className="card">
-            <h3>{recipe.title}</h3>
+          <div key={recipe.id} className={`card ${mode}`}>
+            <>
+              <h3>{recipe.title}</h3>
+              <img 
+                src={recipe.img}
+                className="icon"
+                alt="dish"
+              />
+            </>
             <p>{recipe.cookingTime} to make.</p>
             <div>{recipe.method.substring(0, 100)}...</div>
             <Link to={`/recipes/${recipe.id}`}>Select</Link>

@@ -26,4 +26,25 @@
   cursor: pointer;
   text-decoration: none;
   margin: 20px auto;
+  
+}
+
+.ingredients {
+  display: flex;
+  align-items: center;
+}
+
+.ingredients button {
+  margin: 0 0 0 10px;
+}
+
+.create.dark h2,
+.create.dark span,
+.create.dark li,
+.create.dark p {
+  color: #e4e4e4;
+}
+
+.create.dark button {
+  background-color: #888;
 }

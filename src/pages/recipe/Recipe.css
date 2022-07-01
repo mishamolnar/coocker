@@ -29,3 +29,20 @@
   text-align: left;
   line-height: 1.5em;
 }
+
+.recipe.dark {
+  background: #555;
+  color: #e4e4e4;
+}
+
+.foto {
+  height: 400px;
+  width: 1000px;
+  object-fit: none;
+  border-radius: 50px;
+}
+
+.recipe.dark li,
+.recipe.dark h2 {
+  color: #e4e4e4;
+}
