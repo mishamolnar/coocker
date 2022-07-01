@@ -4,7 +4,7 @@ import { useFetch } from '../../hooks/useFetch'
 import './Home.css'
 
 export default function Home() {
-  const { data, isPending, error } = useFetch('http://localhost:3000/recipes')
+  const { data, isPending, error } = useFetch('https://fake-server-app-mmolnar.herokuapp.com/recipes')
   
   return (
     <div className="home">
